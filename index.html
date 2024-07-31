@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vishwas</title>
+        <link rel="icon" href="assets/image/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="assets/css/tailwind.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.28.0/feather.min.js" integrity="sha512-7x3zila4t2qNycrtZ31HO0NnJr8kg2VI67YLoRSyi9hGhRN66FHYWr7Axa9Y1J9tGYHVBPqIjSE1ogHrJTz51g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </head>
+
+    <body class="bg-gray-100">
+        
+        <section class="py-10 md:py-16">
+
+            <div class="container max-w-screen-xl mx-auto px-4">
+
+                <nav id="navbar" class="flex items-center justify-between mb-40">
+                    <img src="assets/image/navbar-logo.png" alt="Logo" class="mr-4">
+                    <div id="menu-toggle" class="lg:hidden cursor-pointer">
+                        <i data-feather="menu" class="text-gray-700 text-2xl"></i>
+                    </div>
+
+                    <div id="menu" class="hidden lg:flex items-center lg:space-x-8 space-x-4">
+                        <a href="#about" class="hover:text-gray-800 hover:opacity-75 hover:scale-105 transition duration-300 ease-in-out">About</a>
+                        <a href="#projects" class="hover:text-gray-800 hover:opacity-75 hover:scale-105 transition duration-300 ease-in-out">Projects</a>
+                        <a href="#skills" class="hover:text-gray-800 hover:opacity-75 hover:scale-105 transition duration-300 ease-in-out">Skills</a>
+                        <a href="#contact" class="hover:text-gray-800 hover:opacity-75 hover:scale-105 transition duration-300 ease-in-out">Contact</a>
+                    </div>
+
+                    <div id="close-toggle" class="hidden lg:hidden cursor-pointer">
+                        <i data-feather="x" class="text-gray-700 text-2xl"></i>
+                    </div>
+
+                    <button id="view-cv" class="hidden lg:inline-block px-7 py-3 md:px-9 md:py-4 bg-gray-700 text-white font-medium md:font-semibold text-md rounded-md hover:bg-gray-300 hover:text-gray-700 transition duration-300 ease-in-out">Get my CV</button>
+
+                    <div id="cv-container" class="hidden fixed top-0 left-0 w-full h-full bg-black bg-opacity-75 z-50 flex items-center justify-center">
+                        <div class="bg-white p-8 rounded-md max-w-3xl w-full h-full overflow-auto">
+                            <embed src="assets/KODITHALA VISHWAS RESUME FINAL.pdf" type="application/pdf" width="100%" height="100%"/>
+                        </div>
+                    </div>
+                </nav>
+
+                <button id="scrollToTop" class="fixed bottom-6 right-6 bg-gray-700 text-white p-4 rounded-full hidden z-50">
+                    <i data-feather="arrow-up" class="text-2xl"></i>
+                </button>
+
+                <div class="text-center">
+                    <div class="flex justify-center mb-16">
+                        <img src="assets/image/image (1).png" alt="Image" width="270px">
+                    </div>
+
+                    <h6 class="font-medium text-gray-600 text-lg md:text-2xl uppercase mb-8">Kodithala Vishwas</h6>
+
+                    <h1 class="font-normal text-gray-900 text-4xl md:text-7xl leading-none mb-8">Front End Developer</h1>
+
+                    <p class="font-normal text-gray-600 text-md md:text-xl mb-16">A dedicated software engineering student seeking to apply academic knowledge and practical skills in a dynamic software development environment to contribute effectively to innovative projects and further professional growth.</p>
+
+                    <a href="#contact" class="px-7 py-3 md:px-9 md:py-4 font-medium md:font-semibold bg-gray-700 text-gray-50 text-sm rounded-md hover:bg-gray-50 hover:text-gray-700 transition ease-linear duration-500">Hire me</a>
+                </div>
+                
+            </div>
+            
+        </section>
+
+        <section id="about" class="py-6 md:py-16">
+
+            <div class="container max-w-screen-xl mx-auto px-4">
+
+                <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">Education</h1>
+
+                <p class="font-normal text-gray-500 text-xs md:text-base mb-20">Below is a summary of the places I studied</p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="bg-gray-50 px-8 py-10 rounded-xl shadow-md transition-transform transform hover:scale-105">
+                        <h4 class="font-medium text-gray-700 text-lg mb-4">2020 - 2024</h4>
+
+                        <p class="font-normal text-gray-500 text-md mb-4">Vaadevi College of Engineering<br>B.Tech. Information Technology.</p>
+
+                        <div class="relative">
+                            <span class="w-32 h-1 bg-blue-200 absolute bottom-1 left-0 z-0"></span>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 px-8 py-10 rounded-xl shadow-md transition-transform transform hover:scale-105">
+                        <h4 class="font-medium text-gray-700 text-lg mb-4">2018 - 2020</h4>
+
+                        <p class="font-normal text-gray-500 text-md mb-4">SR Junior College<br>Hanumakonda.</p>
+
+                        <div class="relative">
+                            <span class="w-32 h-1 bg-blue-200 absolute bottom-1 left-0 z-0"></span>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 px-8 py-10 rounded-xl shadow-md transition-transform transform hover:scale-105">
+                        <h4 class="font-medium text-gray-700 text-lg mb-4">2018</h4>
+
+                        <p class="font-normal text-gray-500 text-md mb-4">Rishi High School<br>Warangal.</p>
+
+                        <div class="relative">
+                            <span class="w-32 h-1 bg-blue-200 absolute bottom-1 left-0 z-0"></span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="py-10 md:py-6">
+
+            <div class="container max-w-screen-xl mx-auto px-4">
+
+                <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">Experience</h1>
+
+                <div class="flex flex-col lg:flex-row justify-between">
+                    <div class="space-y-8 md:space-y-8 mb-16 md:mb-0">
+                        <h6 class="font-medium text-gray-400 text-base uppercase">Company</h6>
+
+                        <p class="font-semibold text-gray-600 text-base">Factset <span class="font-normal text-gray-400">/ Hyderbad</span></p>
+                    </div>
+
+                    <div class="space-y-8 md:space-y-8 mb-16 md:mb-0">
+                        <h6 class="font-medium text-gray-500 text-base uppercase">Position</h6>
+
+                        <p class="font-normal text-gray-500 text-base">Mesh Extern</p>
+                    </div>
+
+                    <div class="space-y-8 md:space-y-8">
+                        <h6 class="font-medium text-gray-500 text-base uppercase">Year</h6>
+
+                        <p class="font-normal text-gray-500 text-base">May 2023</p>
+                    </div>
+                </div>
+                
+            </div>
+
+        </section>
+
+        <section id="projects" class="py-10 md:py-16">
+
+            <div class="container max-w-screen-xl mx-auto px-4">
+
+                <div class="mb-10 lg:mb-0">
+                    <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">Projects</h1>
+                    <p class="font-normal text-gray-500 text-xs md:text-base mb-10">I have brought here my favorite works as a professional.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+
+                    <div class="bg-gray-50 px-8 py-10 rounded-xl shadow-md transition-transform transform hover:scale-105">
+                        <div class="flex justify-center rounded-md mb-4">
+                            <img class="rounded-xl" src="assets/image/foodmunch.jpg">
+                        </div>
+
+                        <h4 class="font-medium text-gray-700 text-lg mb-4">Myfoodmunch web application</h4>
+
+                        <p class="font-normal text-gray-500 text-md text-justify mb-8">Developed a responsive website for Food Store where users can see a list of food items, detailed information
+                            about a food item, offers.<br>Technology used: <i>HTML, CSS, Bootstrap</i></p>
+                        <a href="https://myfoodmunch.netlify.app/" class="px-4 py-3 md:px-9 md:py-4 font-medium md:font-semibold bg-gray-700 text-gray-50 text-sm rounded-md hover:bg-gray-200 hover:text-gray-700 transition ease-linear duration-500">Preview</a>
+                        <a href="https://github.com/Vishwas88/Foodmunch.git" class="px-4 py-3 md:px-9 md:py-4 font-medium md:font-semibold bg-gray-700 text-gray-50 text-sm rounded-md hover:bg-gray-200 hover:text-gray-700 transition ease-linear duration-500">GitHub</a>
+                    </div>
+                    
+                    <div class="bg-gray-50 px-8 py-10 rounded-xl shadow-md transition-transform transform hover:scale-105">
+                        <div class="flex justify-center rounded-md mb-4">
+                            <img class="rounded-xl" src="assets/image/Screenshot 2024-07-28 130445.jpg">
+                        </div>
+
+                        <h4 class="font-medium text-gray-700 text-lg mb-4">Todo application</h4>
+
+                        <p class="font-normal text-gray-500 text-md text-justify mb-8">Developed persistent Todo Application with CRUD operations to track list of tasks
+                            <br>Technology used: <i>Bootstrap, HTML, CSS and Javascript.</i></p>
+                        <a href="https://my-web-todo.netlify.app/" class="px-4 py-3 md:px-9 md:py-4 font-medium md:font-semibold bg-gray-700 text-gray-50 text-sm rounded-md hover:bg-gray-200 hover:text-gray-700 transition ease-linear duration-500">Preview</a>
+                        <a href="https://github.com/Vishwas88/todo.git" class="px-4 py-3 md:px-9 md:py-4 font-medium md:font-semibold bg-gray-700 text-gray-50 text-sm rounded-md hover:bg-gray-200 hover:text-gray-700 transition ease-linear duration-500">GitHub</a>
+                    </div>
+                
+        </section>
+
+
+        <section id="skills" class="py-10 md:py-4">
+
+            <div class="container max-w-screen-xl mx-auto px-4">
+
+                <div class="mb-10 lg:mb-0">
+                    <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">Skills</h1>
+                    <p class="font-normal text-gray-500 text-xs md:text-base mb-10">I have become confident using the following technologies.</p>
+                </div>
+                <div class="grid grid-cols-3 md:grid-cols-5 gap-6 mx-auto items-center text-center">
+                    <div>
+                        <i class="lni lni-html5" style="font-size: 54px;"></i>
+                        <p class="font-medium text-gray-700 text-xs md:text-base mt-2">HTML</p>
+                    </div>
+                    <div>
+                        <i class="lni lni-css3" style="font-size: 54px;"></i>
+                        <p class="font-medium text-gray-700 text-xs md:text-base mt-2">CSS</p>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-js text-6xl"></i>
+                        <p class="font-medium text-gray-700 text-xs md:text-base mt-2">JavaScript</p>
+                    </div>
+                    
+                    <div>
+                        <i class="fa-brands fa-git-alt text-6xl"></i>
+                        <p class="font-medium text-gray-700 text-xs md:text-base mt-2">Git</p>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-python text-6xl"></i>
+                        <p class="font-medium text-gray-700 text-xs md:text-base mt-2">Python</p>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-java text-6xl"></i>
+                        <p class="font-medium text-gray-700 text-xs md:text-base mt-2">Java</p>
+                    </div>
+                    <div>
+                        <i class="lni lni-mysql" style="font-size: 54px;"></i>
+                        <p class="font-medium text-gray-700 text-xs md:text-base mt-2">MySQL</p>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-bootstrap text-6xl"></i>
+                        <p class="font-medium text-gray-700 text-xs md:text-base mt-2">Bootstrap</p>
+                    </div>
+                    <div>
+                        <i class="lni lni-vs-code" style="font-size: 54px;"></i>
+                        <p class="font-medium text-gray-700 text-xs md:text-base mt-2">VS Code</p>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </section>
+
+        <footer id="contact" class="py-10 md:py-16 mb-20 md:mb-40 lg::mb-52">
+
+            <div class="container max-w-screen-xl mx-auto px-4">
+                
+                <div class="text-center relative">
+                    <h1 class="font-medium text-gray-700 text-4xl md:text-5xl mb-5">Contact</h1>
+
+                    <p class="font-normal text-gray-400 text-md md:text-lg mb-10">I’m not currently taking on new client work but feel free to contact me for any <br> other inquiries.</p>
+
+                    <!-- <form id="contactForm" action="https://formspree.io/f/xeqyozwj" method="post" class="max-w-md mx-auto">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div class="mb-4">
+                                <label for="name" class="block text-gray-700 text-sm font-medium font-bold mb-2">Your Name</label>
+                                <input type="text" id="name" name="name" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)" placeholder="John Doe" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500">
+                            </div>
+                            <div class="mb-4">
+                                <label for="email" class="block text-gray-700 text-sm font-medium font-bold mb-2">Your Email</label>
+                                <input type="email" id="email" name="email" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)" placeholder="john@example.com" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500">
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <label for="message" class="block text-gray-700 text-sm font-medium font-bold mb-2">Your Message</label>
+                            <textarea id="message" name="message" rows="4" onfocus="clearPlaceholder(this)" onblur="restorePlaceholder(this)" placeholder="Type your message here..." class="w-full px-4 py-2 border rounded-md focus:outline-none focus:border-blue-500"></textarea>
+                        </div>
+                        <button type="submit" class="px-8 py-3 bg-gray-700 text-white font-medium text-sm rounded-md hover:bg-gray-600 focus:outline-none focus:bg-gray-600 transition duration-300 ease-in-out">
+                            Send Message
+                        </button>
+                    </form> -->
+
+                    <div class="flex items-center justify-center mb-8 mt-6">
+                        <span class="font-medium text-gray-700 text-lg mr-2">Email:</span>
+                        <span id="emailAddress" class="font-medium text-blue-500 text-lg select-none">kodithalavishwas@gmail.com</span>
+                        <button id="copyEmail" onclick="copyEmail()" class="ml-4 px-3 py-1 bg-gray-200 text-gray-700 font-medium rounded-md hover:bg-gray-300 focus:outline-none focus:bg-gray-300 transition duration-300 ease-in-out shadow-md">Copy</button>
+                    </div>
+
+                    <div id="toast" class="hidden bg-gray-800 text-white px-4 py-2 rounded-md absolute bottom-8 left-1/2 transform -translate-x-1/2 z-50">
+                        Copied
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-16 flex items-center justify-center space-x-8">
+                <a href="https://x.com/KodithalaV?t=dpZSkoJN5XWgdOvV5Wt9lA&s=08" class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
+                    <i data-feather="twitter" class="text-gray-500 hover:text-gray-800 transition ease-in-out duration-500"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/vishwas-kodithala-5b8ab1212" class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
+                    <i data-feather="linkedin" class="text-gray-500 hover:text-gray-700 transition ease-in-out duration-500"></i>
+                </a>
+
+                <a href="https://github.com/Vishwas88" class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
+                    <i data-feather="github" class="text-gray-500 hover:text-gray-700 transition ease-in-out duration-500"></i>
+                </a>
+
+                <a href="https://www.instagram.com/vishwas_8802?igsh=dGNlbGd6aHMxZHoz" class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
+                    <i data-feather="instagram" class="text-gray-500 hover:text-gray-700 transition ease-in-out duration-500"></i>
+                </a>
+            </div>
+            <!-- <script>
+                function clearPlaceholder(element) {
+                    element.placeholder = '';
+                }
+
+                function restorePlaceholder(element) {
+                    if (element.value === '') {
+                        element.placeholder = element.getAttribute('placeholder');
+                    }
+                }
+            </script>  -->
+            <script>
+                function copyEmail() {
+                    var email = document.getElementById('emailAddress');
+                    var tempInput = document.createElement('input');
+                    tempInput.value = email.textContent;
+                    document.body.appendChild(tempInput);
+                    tempInput.select();
+                    document.execCommand('copy');
+                    document.body.removeChild(tempInput);
+
+                    var toast = document.getElementById('toast');
+                    toast.classList.remove('hidden');
+                    setTimeout(function() {
+                        toast.classList.add('hidden');
+                    }, 1000);
+                }                
+            </script>
+        </footer>
+
+
+        <script>
+            feather.replace()
+        </script>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function(){
+                const menuToggle = document.getElementById('menu-toggle');
+                const closeToggle = document.getElementById('close-toggle');
+                const menu = document.getElementById('menu');
+
+                menuToggle.addEventListener('click', function(){
+                    menu.classList.toggle('hidden');
+                    menuToggle.classList.add('hidden');
+                    closeToggle.classList.remove('hidden');
+                });
+
+                closeToggle.addEventListener('click', function () {
+                    menu.classList.toggle('hidden');
+                    closeToggle.classList.add('hidden');
+                    menuToggle.classList.remove('hidden');
+                });
+
+                function scrollToSection(sectionID){
+                    const section = document.getElementById(sectionID);
+                    if (section){
+                        section.scrollIntoView({
+                            behavior: 'smooth'
+                        });
+                    }
+                }
+
+                const navigationLinks = document.querySelectorAll('#menu a');
+
+                navigationLinks.forEach(link => {
+                    link.addEventListener('click',function(event){
+                        event.preventDefault();
+                        const targetSelectedID = link.getAttribute('href').substring(1);
+                        scrollToSection(targetSelectedID);
+                    });
+                });
+            });
+        </script>
+
+        <script>
+            const viewCVButton = document.getElementById('view-cv');
+            const cvContainer = document.getElementById('cv-container');
+
+            viewCVButton.addEventListener('click', function() {
+                cvContainer.classList.remove('hidden');
+            });
+
+            cvContainer.addEventListener('click', function(event) {
+                if (event.target === cvContainer) {
+                    cvContainer.classList.add('hidden');
+                }
+            });
+        </script>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const scrollToTopButton = document.getElementById('scrollToTop');
+
+                function toggleScrollToTopButton() {
+                    if (window.scrollY > 300) {
+                        scrollToTopButton.classList.remove('hidden');
+                    } else {
+                        scrollToTopButton.classList.add('hidden');
+                    }
+                }
+
+                function scrollToTop() {
+                    window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth'
+                    });
+                }
+
+                window.addEventListener('scroll', toggleScrollToTopButton);
+
+                scrollToTopButton.addEventListener('click', scrollToTop);
+            });
+        </script>
+
+    </body>
+</html>
